@@ -45,7 +45,7 @@ See `docs/repo_structure.md` for the full folder tree with per-folder purpose.
 
 ## Setup
 ```bash
-git clone https://github.com/temi88/walmart-demand-forecasting.git
+git clone https://github.com/temitopebello/walmart-demand-forecasting.git
 cd walmart-demand-forecasting
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## Sprints
 See `docs/sprint_plan.md`. Project board at
-https://github.com/users/temi88/projects/1.
+https://github.com/users/temitopebello/projects/1.
 
 ## Governance
 Fairness, privacy, and compliance commitments are captured in `reports/ethics/`
