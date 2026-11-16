@@ -1,0 +1,107 @@
+
+<!doctype html><html><head><meta charset='utf-8'><title>Great Expectations Report</title>
+<style>
+body { font-family: -apple-system, system-ui, sans-serif; margin: 24px; color: #1A1A1A; }
+h1 { color: #002E6D; font-size: 20px; }
+.banner { background: #E8F6EC; border-left: 6px solid #2E8B57;
+          padding: 14px 18px; margin-bottom: 18px; border-radius: 4px; }
+.banner b { color: #2E8B57; font-size: 16px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 8px 10px; border-bottom: 1px solid #E1E4E8; vertical-align: top; }
+th { background: #002E6D; color: white; text-align: left; }
+td.pass { color: #2E8B57; font-weight: bold; }
+td.fail { color: #C0392B; font-weight: bold; }
+td.mono { font-family: Menlo, Consolas, monospace; font-size: 11px; color: #55606B; }
+td.right { text-align: right; font-weight: bold; color: #2E8B57; }
+</style></head><body>
+<h1>Great Expectations | walmart_master_suite</h1>
+<div class='banner'>
+<b>✓ Suite passed</b><br>
+10 of 10 expectations met
+&nbsp;|&nbsp; 478,192 rows
+&nbsp;|&nbsp; 2026-11-16
+</div>
+<table>
+<tr><th style='width:40px'></th><th>Expectation</th><th>Arguments</th><th>Observed</th></tr>
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_table_columns_to_match_set</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column_set": ["Store", "Dept", "Date", "Weekly_Sales", "IsHoliday", "is_return", "Tempera</td>
+          <td class='right'>['CPI', 'Date', 'Dept', 'Fuel_Price', 'IsHoliday', 'MarkDown1', 'MarkDown2', 'MarkDown3', 'MarkDown4', 'MarkDown5', 'Size', 'Store', 'Temperature', 'Type', 'Type_A', 'Type_B', 'Type_C', 'Unemployment', 'Weekly_Sales', 'is_return', 'month', 'sales_lag_1w', 'sales_lag_4w', 'sales_lag_52w', 'week_of_year', 'weeks_to_year_end', 'year']</td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_table_row_count_to_be_between</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "min_value": 400000, "max_value": 500000}</td>
+          <td class='right'>478192</td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_be_between</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "Store", "min_value": 1.0, "max_value": 45.0}</td>
+          <td class='right'></td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_be_between</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "Dept", "min_value": 1.0, "max_value": 99.0}</td>
+          <td class='right'></td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_be_in_set</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "Type", "value_set": ["A", "B", "C"]}</td>
+          <td class='right'></td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_not_be_null</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "Type"}</td>
+          <td class='right'></td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_not_be_null</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "Date"}</td>
+          <td class='right'></td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_match_regex</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "Date", "regex": "^\\d{4}-\\d{2}-\\d{2}.*"}</td>
+          <td class='right'></td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_not_be_null</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "CPI"}</td>
+          <td class='right'></td>
+        </tr>
+        
+
+        <tr>
+          <td class='pass'>✓</td>
+          <td>expect_column_values_to_not_be_null</td>
+          <td class='mono'>{"batch_id": "walmart_master_src-walmart_master", "column": "Unemployment"}</td>
+          <td class='right'></td>
+        </tr>
+        
+</table>
+</body></html>

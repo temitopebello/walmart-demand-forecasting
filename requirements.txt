@@ -1,19 +1,22 @@
 # Core data stack
 pandas==2.2.2
 numpy==1.26.4
+pyarrow==15.0.2
 scikit-learn==1.4.2
 
-# Modelling
+# Modelling (Module 4+)
 lightgbm==4.3.0
-prophet==1.1.5
 
-# Prescriptive optimisation
+# Prescriptive (Module 5+)
 pulp==2.8.0
 
-# Experiment tracking
-mlflow==2.12.1
+# Pipeline
+prefect==3.9.3
+great-expectations==1.25.0
 
-# Explainability
+# Ethics stack
+fairlearn==0.15.0
+faker==25.0.0
 shap==0.45.0
 
 # Dataset access
@@ -23,8 +26,6 @@ kaggle==1.6.14
 dvc==3.50.1
 dvc-gdrive==3.0.1
 
-# Development tools
-jupyter==1.0.0
+# Testing & dev
 pytest==8.1.1
 black==24.4.2
-ruff==0.4.4

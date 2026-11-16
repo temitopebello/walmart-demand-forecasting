@@ -1,0 +1,11 @@
+name: walmart-demand-forecasting
+prefect-version: 3.9.3
+
+deployments:
+  - name: weekly
+    entrypoint: src/pipeline/flow.py:walmart_demand_pipeline
+    schedule:
+      cron: "0 6 * * 1"
+      timezone: UTC
+    work_pool:
+      name: default
