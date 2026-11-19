@@ -1,0 +1,11 @@
+feature,perturbation,mean_abs_delta,relative_pct
+sales_lag_1w,+10%,11.108,3.547
+sales_lag_1w,-10%,10.499,3.353
+sales_lag_4w,+10%,11.425,3.648
+sales_lag_4w,-10%,10.646,3.4
+sales_lag_52w,+10%,9.667,3.087
+sales_lag_52w,-10%,8.087,2.582
+week_of_year,+10%,5.361,1.712
+week_of_year,-10%,3.662,1.169
+Size,+10%,4.524,1.445
+Size,-10%,4.059,1.296

@@ -1,0 +1,68 @@
+{
+  "split_date": "2012-04-01 00:00:00",
+  "features": [
+    "Store",
+    "Dept",
+    "Size",
+    "Temperature",
+    "Fuel_Price",
+    "MarkDown1",
+    "MarkDown2",
+    "MarkDown3",
+    "MarkDown4",
+    "MarkDown5",
+    "CPI",
+    "Unemployment",
+    "week_of_year",
+    "month",
+    "year",
+    "weeks_to_year_end",
+    "sales_lag_1w",
+    "sales_lag_4w",
+    "sales_lag_52w",
+    "IsHoliday",
+    "Type_A",
+    "Type_B",
+    "Type_C"
+  ],
+  "results": {
+    "baseline_prevyear": {
+      "mae": 62.637286930953934,
+      "rmse": 106.28843983555126,
+      "r2": 0.8730653041896199,
+      "wmae": 61.75761328292609,
+      "mape_pct": 21.137614361239056
+    },
+    "baseline_mean": {
+      "mae": 68.01633614996761,
+      "rmse": 112.84275837549373,
+      "r2": 0.8569276635637705,
+      "wmae": 65.4770584506674,
+      "mape_pct": 21.808763783564476
+    },
+    "linear": {
+      "mae": 65.96035690013923,
+      "rmse": 105.37236451261565,
+      "r2": 0.8752439162757374,
+      "wmae": 66.09727666082208,
+      "mape_pct": 37.63898011265427
+    },
+    "random_forest": {
+      "mae": 59.71924980476837,
+      "rmse": 100.35373554653508,
+      "r2": 0.8868445780344377,
+      "wmae": 59.09535820853061,
+      "mape_pct": 20.895094401892262
+    },
+    "lightgbm": {
+      "mae": 59.26116151169822,
+      "rmse": 99.61464600879476,
+      "r2": 0.8885051842851976,
+      "wmae": 58.551223706142494,
+      "mape_pct": 20.760427764604586
+    }
+  },
+  "champion": "lightgbm",
+  "train_rows": 377872,
+  "test_rows": 100320
+}

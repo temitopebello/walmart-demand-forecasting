@@ -1,0 +1,2 @@
+Store,Dept,Size,Temperature,Fuel_Price,MarkDown1,MarkDown2,MarkDown3,MarkDown4,MarkDown5,CPI,Unemployment,week_of_year,month,year,weeks_to_year_end,sales_lag_1w,sales_lag_4w,sales_lag_52w,IsHoliday,Type_A,Type_B,Type_C,Weekly_Sales
+29,49,219365,54.92,3.007,0.0,0.0,0.0,0.0,0.0,207.87,7.1402,26,6,2012,26,58.67,38.24,39.85,0,1,0,0,48.058355620115506

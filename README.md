@@ -40,8 +40,8 @@ credentials are available.
 |---|---|---|
 | Module 1 Vision | Done | Problem framing, ethical charter, repo structure |
 | Module 2 Planning | Done | Fishbone, RAID, sprints, GitHub repo scaffolded |
-| Module 3 Pipeline | **This update** | Prefect flow, Great Expectations suite, Dockerfile, pytest, Fairlearn, anonymisation, privacy audit log |
-| Module 4 Model | Pending | LightGBM training, MLflow registry |
+| Module 3 Pipeline | Done | Prefect flow, Great Expectations suite, Dockerfile, pytest, Fairlearn, anonymisation, privacy audit log |
+| Module 4 Model | **This update** | LightGBM + Random Forest + Linear + 2 baselines in MLflow, SHAP, LIME, DiCE, Fairlearn group metrics, sensitivity, Model Card, FastAPI /predict |
 | Module 5 Dashboard | Pending | Power BI dashboard |
 | Final Project | Pending | Portfolio-ready integrated build |
 
