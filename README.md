@@ -41,8 +41,8 @@ credentials are available.
 | Module 1 Vision | Done | Problem framing, ethical charter, repo structure |
 | Module 2 Planning | Done | Fishbone, RAID, sprints, GitHub repo scaffolded |
 | Module 3 Pipeline | Done | Prefect flow, Great Expectations suite, Dockerfile, pytest, Fairlearn, anonymisation, privacy audit log |
-| Module 4 Model | **This update** | LightGBM + Random Forest + Linear + 2 baselines in MLflow, SHAP, LIME, DiCE, Fairlearn group metrics, sensitivity, Model Card, FastAPI /predict |
-| Module 5 Dashboard | Pending | Power BI dashboard |
+| Module 4 Model | Done | LightGBM + Random Forest + Linear + 2 baselines in MLflow, SHAP, LIME, DiCE, Fairlearn group metrics, sensitivity, Model Card, FastAPI /predict |
+| Module 5 Dashboard | **This update** | Streamlit dashboard with 5 pages (Overview, Make a Forecast, What-If Analysis, Fairness Dashboard, Model Card), deployed to Streamlit Cloud |
 | Final Project | Pending | Portfolio-ready integrated build |
 
 ## Module 3 — Data Pipeline

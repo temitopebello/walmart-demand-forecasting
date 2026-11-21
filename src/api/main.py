@@ -12,7 +12,6 @@ Example request body:
 """
 from __future__ import annotations
 
-import datetime as dt
 from pathlib import Path
 from typing import Literal
 
@@ -49,21 +48,9 @@ def _get_model():
 
 
 class PredictRequest(BaseModel):
-    model_config = {
-        "json_schema_extra": {
-            "examples": [{
-                "Store": 1, "Dept": 10, "Date": "2012-06-01", "Size": 150000, "Type": "A",
-                "Temperature": 70, "Fuel_Price": 3.2, "CPI": 220, "Unemployment": 7.5,
-                "IsHoliday": False,
-                "MarkDown1": 0, "MarkDown2": 0, "MarkDown3": 0, "MarkDown4": 0, "MarkDown5": 0,
-                "sales_lag_1w": 180, "sales_lag_4w": 190, "sales_lag_52w": 175,
-            }]
-        }
-    }
-
     Store: int = Field(..., ge=1, le=45)
     Dept: int = Field(..., ge=1, le=99)
-    Date: dt.date = Field(..., description="YYYY-MM-DD")
+    Date: str = Field(..., description="YYYY-MM-DD")
     Size: int
     Type: Literal["A", "B", "C"]
     Temperature: float
